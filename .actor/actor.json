@@ -7,6 +7,10 @@
 	"meta": {
 		"templateId": "ts-crawlee-cheerio"
 	},
+	"environmentVariables": {
+		"MYSQL_USER": "my_username",
+        	"MYSQL_PASSWORD": "@mySecretPassword"
+	},
 	"input": "./input_schema.json",
 	"dockerfile": "./Dockerfile"
 }
